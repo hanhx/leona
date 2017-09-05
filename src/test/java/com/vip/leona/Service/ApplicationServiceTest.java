@@ -25,6 +25,7 @@ public class ApplicationServiceTest {
 
     @Test
     public void getAllApplicationTest(){
+        //aaa
         List<Application> list = this.applicationService.getAllApplication();
         logger.info(" "+list.size());
         list.forEach( application -> {
