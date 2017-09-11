@@ -19,7 +19,9 @@ public enum ResultCode {
 
 	ADD_SUCCESS(4),
 
-	QUERY_SUCCESS(5),;
+	QUERY_SUCCESS(5),
+
+	TEST_PARAM(6),;
 
 	private int code;
 

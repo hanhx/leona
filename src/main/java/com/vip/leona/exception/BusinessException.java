@@ -39,4 +39,12 @@ public class BusinessException extends RuntimeException {
         result.setMessage(cause.getMessage());
 
     }
+
+    public Result getResult() {
+        return result;
+    }
+
+    public void setResult(Result result) {
+        this.result = result;
+    }
 }
