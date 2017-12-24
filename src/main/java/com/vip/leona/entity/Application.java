@@ -10,14 +10,4 @@ public class Application {
     public String domain;
     public String ip;
 
-    @Override
-    public String toString() {
-        return "Application{" +
-                "id=" + id +
-                ", envId='" + envId + '\'' +
-                ", name='" + name + '\'' +
-                ", domain='" + domain + '\'' +
-                ", ip='" + ip + '\'' +
-                '}';
-    }
 }

@@ -33,7 +33,7 @@ public enum ResultCode {
 		this.code = code;
 	}
 
-	private ResultCode(int code) {
+	ResultCode(int code) {
 		this.code = code;
 	}
 }
